@@ -16,7 +16,7 @@ fetch(url)
         let movies = data.movies;
         return movies.map(function(movie) {
             let li = createNode('li');
-            li.innerHTML = "Movie:"+movie.title + "----- Stars: " + movie.director;
+            li.innerHTML = "Movie:"+movie.title + "----- Stars: " + movie.stars + " ----- Year: "+ movie.year;
             append(ul, li);
         })
     })
