@@ -1,0 +1,25 @@
+
+h2 {
+    margin: 0 20% 0 12%;
+}
+
+input, button {
+
+    padding: 7px;
+    height: 40px;
+}
+
+fieldset {
+    margin: 20px;
+}
+
+legend {
+    margin: 20px;
+    text-align: center;
+}
+
+div {
+    margin: 0 20% 0 10%;
+    display: block;
+    justify-content: center;
+}
